@@ -1,8 +1,9 @@
 local TEST_CLASS_PATTERNS = {
-	"Test$",
-	"Tests$",
-	"Spec$",
-	"IT$",
+    "Test$",
+    "^Test",
+    "Tests$",
+    "Spec$",
+    "IT$",
 }
 
 return TEST_CLASS_PATTERNS
